@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.single-recipe{
+    display: flex;
+    margin-bottom: 34px;
+   
+}
+
+.single-recipe img{
+    margin: 30px;
+   
+    border-radius: 25px;
+    width: 654px;
+    box-shadow: 5px 5px rgb(175, 168, 168) ;
+    
+}
+.recipe img{
+    height: 60%;
+    
+    
+}
+
+.single-recipe .para{
+    margin: 10px 60px;
+}
+
+.single-recipe .para p{
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 18px;
+}
+
+.para hr{
+    margin: 40px;
+}
+
+.single-recipe .para p{
+    margin: 50px;
+}
+
+/* step section */
+
+
+.total-step{
+    margin: 25px;
+}
+
+.total-step h2{
+    padding: 10px 20px;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.total-step p{
+    padding: 15px 20px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: 'Bree Serif',serif;
+}
+
+
+
