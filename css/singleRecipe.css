@@ -60,4 +60,56 @@
 }
 
 
+/* resposive site */
 
+@media only screen and (max-width: 1150px){
+
+
+    #navbar{
+        flex-direction: column;
+    }
+    #navbar ul{
+        flex-direction: column;
+    }
+    .single-recipe{
+        flex-direction: column;
+    }
+    .single-recipe img{
+       text-align: center;
+    }
+}
+
+@media(max-width:711px){
+    .single-recipe{
+        margin: 5px;
+    }
+    .single-recipe img{
+      width: 445px;
+    }
+    .para p{
+        margin: 2px;
+    }
+}
+@media(max-width:511px){
+    .single-recipe{
+        margin: 2px;
+    }
+    .single-recipe img{
+      width: 300px;
+    }
+    .para p{
+        margin: 2px;
+    }
+}
+@media(max-width:373px){
+    .single-recipe{
+        margin: 1px;
+    }
+    .single-recipe img{
+      width: 150px;
+    }
+    .para p{
+        margin: 2px;
+    }
+}
+    

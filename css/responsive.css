@@ -1,52 +1,89 @@
 /* Navigation */
 
-#navbar{
-    flex-direction: column;
-}
+    
+    #navbar{
+        flex-direction: column;
+    }
+    #navbar ul{
+        flex-direction: column;
+    }
 
-#navbar ul li a{
-    font-size: 1rem;
-    padding: 0px 7px;
-    padding: 8px;
-}
+    #navbar ul li a{
+        font-size: 1rem;
+        padding: 0px 7px;
+        padding: 8px;
+    }
 
-/* home section  */
-#home{
-    height: 370px;
-    padding: 3px 28px;
-}
- 
-#home::before{
-    height: 480px;
-}
-
-
-/* recipe section */
-#recipes{
-    flex-direction: column;
-    /* margin: 233px; */
-}
-
-#recipes .box{
-    padding: 14px;
-    margin: 2px 0px;
-    margin-bottom: 20px;
-}
-
-#recipes .box img{
-    height: 160px;
-}
-
-/* contact section */
-
-#contact-box form{
-    width: 80%;
-}
+    /* home section  */
+    #home{
+        height: 370px;
+        padding: 3px 28px;
+    }
+    
+    #home::before{
+        height: 480px;
+    }
 
 
-/* footer */
+    /* recipe section */
+    #recipes{
+        flex-direction: column;
+        /* margin: 233px; */
+    }
 
-/* utility section */
-.h-primary{
-    font-size: 26px;
-}
+    #recipes .box{
+        padding: 14px;
+        margin: 2px 0px;
+        margin-bottom: 20px;
+    }
+
+    #recipes .box img{
+        height: 160px;
+    }
+
+    /* contact section */
+
+    #contact-box form{
+        width: 80%;
+    }
+
+
+    /* footer */
+
+    /* utility section */
+    .h-primary{
+        font-size: 26px;
+    }
+
+    @media(max-width:438px){
+        .box{
+            margin: 2px 5px;
+            padding: 5px;
+        }
+        .box img{
+            width: 200px;
+            margin: -11px;
+        }
+    }
+    @media(max-width:317px){
+        
+        .box img{
+            width: 150px;
+            margin: -11px;
+        }
+    }
+    @media(max-width:267px){
+        
+        .box img{
+            width: 100px;
+            margin: -11px;
+        }
+        
+    }
+    @media(max-width:400px){
+        #home::before{
+            height: 100px;
+        }
+        
+        
+    }
